@@ -1,0 +1,504 @@
+{
+  "application": "Halogenation Lab",
+  "version": "1.0.1",
+  "calculatorId": 15,
+  "language": "en",
+  "createdAt": "2026-10-17T09:39:06.141Z",
+  "inputs": {
+    "unit": "kmol/h",
+    "methane": 1,
+    "chlorine": 2,
+    "inert": 5,
+    "x1": 0.02,
+    "x2": 0.005,
+    "x3": 0.001,
+    "x4": 0,
+    "mode": "extent",
+    "extent": 0.6,
+    "conversion": 0.8,
+    "selectivity": 0.6,
+    "reaction": "1",
+    "substrate": 1,
+    "species": "CH4",
+    "feed": 1,
+    "remaining": 0.2,
+    "compositionMode": "manual",
+    "pCH3Cl": 0.45,
+    "pCH2Cl2": 0.25,
+    "pCHCl3": 0.08,
+    "pCCl4": 0.02,
+    "selected": "CH3Cl",
+    "selectivityBasis": "fraction",
+    "actual": 0.5,
+    "target": 0.4,
+    "thermoMode": "reference",
+    "thermoSource": "",
+    "cpModel": "shomate",
+    "cpSource": "",
+    "temperatureUnit": "K",
+    "temperature": 298.15,
+    "tin": 298.15,
+    "pressure": 1,
+    "pressureUnit": "bar",
+    "stages": 3,
+    "hfCH4": -74.8731,
+    "cpCH4": 35.6484,
+    "hfCH3Cl": -83.68,
+    "cpCH3Cl": 40.7116,
+    "hfCH2Cl2": -95.52114,
+    "cpCH2Cl2": 50.8639,
+    "hfCHCl3": -103.177,
+    "cpCHCl3": 65.3467,
+    "hfCCl4": -95.98096,
+    "cpCCl4": 82.67,
+    "hfCl2": 0,
+    "cpCl2": 33.9463,
+    "hfHCl": -92.31201,
+    "cpHCl": 29.1371,
+    "hfN2": 0,
+    "cpN2": 29.1238,
+    "rCH3Cl": 0.9,
+    "rCH2Cl2": 0.9,
+    "rCHCl3": 0.9,
+    "rCCl4": 0.9,
+    "s1cl2": 0,
+    "s1x1": 0.5,
+    "s1x2": 0.2,
+    "s1x3": 0.05,
+    "s1x4": 0.01,
+    "s2cl2": 0,
+    "s2x1": 0.2,
+    "s2x2": 0.15,
+    "s2x3": 0.05,
+    "s2x4": 0.01,
+    "s3cl2": 0,
+    "s3x1": 0.1,
+    "s3x2": 0.05,
+    "s3x3": 0.02,
+    "s3x4": 0.01,
+    "s4cl2": 0,
+    "s4x1": 0,
+    "s4x2": 0,
+    "s4x3": 0,
+    "s4x4": 0,
+    "s5cl2": 0,
+    "s5x1": 0,
+    "s5x2": 0,
+    "s5x3": 0,
+    "s5x4": 0
+  },
+  "results": {
+    "values": {
+      "consumed": 26,
+      "hcl": 26,
+      "conversion": 0.02,
+      "inMass": 297.913,
+      "outMass": 297.913,
+      "massResidual": 0,
+      "closure": 100,
+      "CH4": 980,
+      "CH3Cl": 15,
+      "CH2Cl2": 4,
+      "CHCl3": 1,
+      "CCl4": 0,
+      "Cl2": 1974,
+      "HCl": 26,
+      "N2": 5000,
+      "temperature": 308.73972695040777,
+      "temperatureChange": 10.589726950407794,
+      "energyResidual": -1.4551915228366852e-11,
+      "Hin": -74873.09999999999,
+      "Hout": -74873.1
+    },
+    "metrics": [
+      {
+        "label": {
+          "en": "Estimated adiabatic outlet",
+          "ar": "درجة الخروج الأدياباتية المقدّرة"
+        },
+        "value": 308.73972695040777,
+        "unit": "K"
+      },
+      {
+        "label": {
+          "en": "Temperature change",
+          "ar": "التغيّر الحراري"
+        },
+        "value": 10.589726950407794,
+        "unit": "K"
+      },
+      {
+        "label": {
+          "en": "Energy residual",
+          "ar": "باقي موازنة الطاقة"
+        },
+        "value": -1.4551915228366852e-11,
+        "unit": "kJ/h"
+      },
+      {
+        "label": {
+          "en": "Outlet temperature",
+          "ar": "درجة حرارة الخروج"
+        },
+        "value": 35.589726950407794,
+        "unit": "°C"
+      }
+    ],
+    "tables": [
+      {
+        "title": {
+          "en": "Component balance",
+          "ar": "موازنة المكونات"
+        },
+        "headers": [
+          {
+            "en": "Species",
+            "ar": "المكوّن"
+          },
+          {
+            "en": "n in (kmol/h)",
+            "ar": "مولات الدخول (kmol/h)"
+          },
+          {
+            "en": "n out (kmol/h)",
+            "ar": "مولات الخروج (kmol/h)"
+          },
+          {
+            "en": "m in (kg/h)",
+            "ar": "كتلة الدخول (kg/h)"
+          },
+          {
+            "en": "m out (kg/h)",
+            "ar": "كتلة الخروج (kg/h)"
+          }
+        ],
+        "rows": [
+          [
+            "CH₄",
+            1,
+            0.98,
+            16.043,
+            15.72214
+          ],
+          [
+            "CH₃Cl",
+            0,
+            0.015,
+            0,
+            0.757275
+          ],
+          [
+            "CH₂Cl₂",
+            0,
+            0.004,
+            0,
+            0.339708
+          ],
+          [
+            "CHCl₃",
+            0,
+            0.001,
+            0,
+            0.119369
+          ],
+          [
+            "CCl₄",
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            "Cl₂",
+            2,
+            1.974,
+            141.8,
+            139.9566
+          ],
+          [
+            "HCl",
+            0,
+            0.026,
+            0,
+            0.9479080000000001
+          ],
+          [
+            "N₂",
+            5,
+            5,
+            140.07,
+            140.07
+          ]
+        ]
+      },
+      {
+        "title": {
+          "en": "Elemental audit",
+          "ar": "مراجعة العناصر"
+        },
+        "headers": [
+          {
+            "en": "Element",
+            "ar": "العنصر"
+          },
+          {
+            "en": "in (kmol/h atoms)",
+            "ar": "دخول (kmol/h ذرات)"
+          },
+          {
+            "en": "out (kmol/h atoms)",
+            "ar": "خروج (kmol/h ذرات)"
+          },
+          {
+            "en": "Residual",
+            "ar": "الباقي"
+          }
+        ],
+        "rows": [
+          [
+            "C",
+            1,
+            1,
+            0
+          ],
+          [
+            "H",
+            4,
+            4,
+            0
+          ],
+          [
+            "Cl",
+            4,
+            4,
+            0
+          ],
+          [
+            "N",
+            10,
+            10,
+            0
+          ]
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "en": "Normalize the hourly-flow basis. Feed masses use component molecular weights; extents use kmol/h.",
+          "ar": "توحيد أساس التدفق بالساعة. تُحوّل كتل التغذية بكتل المكونات المولية، وتستخدم الامتدادات kmol/h."
+        },
+        "formula": "n_i=m_i/M_i"
+      },
+      {
+        "text": {
+          "en": "Entered extents (kmol/h): 0.02, 0.005, 0.001, 0. Each calculated outlet must be nonnegative.",
+          "ar": "الامتدادات المدخلة (kmol/h): 0.02, 0.005, 0.001, 0. يجب أن تكون كل كميات الخروج غير سالبة."
+        }
+      },
+      {
+        "text": {
+          "en": "CH₄: 1 - 0.02 = 0.98 kmol/h.",
+          "ar": "CH₄: 1 - 0.02 = 0.98 kmol/h."
+        }
+      },
+      {
+        "text": {
+          "en": "CH₃Cl: 0 + 0.02 - 0.005 = 0.015 kmol/h.",
+          "ar": "CH₃Cl: 0 + 0.02 - 0.005 = 0.015 kmol/h."
+        }
+      },
+      {
+        "text": {
+          "en": "CH₂Cl₂: 0 + 0.005 - 0.001 = 0.004 kmol/h.",
+          "ar": "CH₂Cl₂: 0 + 0.005 - 0.001 = 0.004 kmol/h."
+        }
+      },
+      {
+        "text": {
+          "en": "CHCl₃: 0 + 0.001 - 0 = 0.001 kmol/h.",
+          "ar": "CHCl₃: 0 + 0.001 - 0 = 0.001 kmol/h."
+        }
+      },
+      {
+        "text": {
+          "en": "CCl₄: 0 + 0 = 0 kmol/h.",
+          "ar": "CCl₄: 0 + 0 = 0 kmol/h."
+        }
+      },
+      {
+        "text": {
+          "en": "Cl₂: 2 - 0.026 = 1.974 kmol/h.",
+          "ar": "Cl₂: 2 - 0.026 = 1.974 kmol/h."
+        }
+      },
+      {
+        "text": {
+          "en": "HCl: 0 + 0.026 = 0.026 kmol/h.",
+          "ar": "HCl: 0 + 0.026 = 0.026 kmol/h."
+        }
+      },
+      {
+        "text": {
+          "en": "Total inlet mass = 297.913 kg/h; outlet = 297.913 kg/h; residual = 0 kg/h.",
+          "ar": "الكتلة الداخلة = 297.913 kg/h؛ الخارجة = 297.913 kg/h؛ الباقي = 0 kg/h."
+        },
+        "formula": "\\varepsilon_m=m_{out}-m_{in}"
+      },
+      {
+        "text": {
+          "en": "Hin = -74873.1 kJ/h. Bisection on 298.15–1000 K gives T = 308.73973 K and Hout = -74873.1 kJ/h.",
+          "ar": "Hin = -74873.1 kJ/h. يعطي التنصيف العددي في 298.15–1000 K درجة T = 308.73973 K وHout = -74873.1 kJ/h."
+        },
+        "formula": "h_i(T)=\\Delta_fH_i^\\circ+\\int_{298.15}^{T}C_{p,i}(T)\\,dT"
+      }
+    ],
+    "notes": [],
+    "chart": [
+      {
+        "name": "298",
+        "value": -2643.111819999991
+      },
+      {
+        "name": "327",
+        "value": 4676.513296233374
+      },
+      {
+        "name": "357",
+        "value": 12062.917558641107
+      },
+      {
+        "name": "386",
+        "value": 19519.3131620345
+      },
+      {
+        "name": "415",
+        "value": 27048.23172223816
+      },
+      {
+        "name": "444",
+        "value": 34651.88948422759
+      },
+      {
+        "name": "474",
+        "value": 42332.417229081155
+      },
+      {
+        "name": "503",
+        "value": 50091.992554514596
+      },
+      {
+        "name": "532",
+        "value": 57931.023270013204
+      },
+      {
+        "name": "561",
+        "value": 65850.44783937046
+      },
+      {
+        "name": "591",
+        "value": 73851.60331056728
+      },
+      {
+        "name": "620",
+        "value": 81934.96656049452
+      },
+      {
+        "name": "649",
+        "value": 90100.36932759435
+      },
+      {
+        "name": "678",
+        "value": 98347.15762144153
+      },
+      {
+        "name": "708",
+        "value": 106674.31160167736
+      },
+      {
+        "name": "737",
+        "value": 115080.53690906194
+      },
+      {
+        "name": "766",
+        "value": 123564.33507729848
+      },
+      {
+        "name": "795",
+        "value": 132124.05841017628
+      },
+      {
+        "name": "825",
+        "value": 140757.95318079693
+      },
+      {
+        "name": "854",
+        "value": 149464.19395283028
+      },
+      {
+        "name": "883",
+        "value": 158240.91108192562
+      },
+      {
+        "name": "912",
+        "value": 167086.21292760054
+      },
+      {
+        "name": "942",
+        "value": 175998.20392566884
+      },
+      {
+        "name": "971",
+        "value": 184974.99939410918
+      },
+      {
+        "name": "1000",
+        "value": 194014.7377410591
+      }
+    ],
+    "chartTitle": {
+      "en": "Enthalpy residual vs temperature (K)",
+      "ar": "باقي الإنثالبي مقابل درجة الحرارة (K)"
+    },
+    "chartUnit": "kJ/h",
+    "balance": {
+      "inMass": 297.913,
+      "outMass": 297.913,
+      "residual": 0,
+      "closure": 100,
+      "elements": {
+        "C": {
+          "in": 1000,
+          "out": 1000,
+          "residual": 0
+        },
+        "H": {
+          "in": 4000,
+          "out": 4000,
+          "residual": 0
+        },
+        "Cl": {
+          "in": 4000,
+          "out": 4000,
+          "residual": 0
+        },
+        "N": {
+          "in": 10000,
+          "out": 10000,
+          "residual": 0
+        }
+      }
+    },
+    "stream": {
+      "CH4": 980,
+      "CH3Cl": 15,
+      "CH2Cl2": 4,
+      "CHCl3": 1,
+      "CCl4": 0,
+      "Cl2": 1974,
+      "HCl": 26,
+      "N2": 5000
+    },
+    "chartType": "line"
+  }
+}

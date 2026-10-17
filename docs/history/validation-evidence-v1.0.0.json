@@ -1,0 +1,960 @@
+{
+  "unit": {
+    "total": 121,
+    "passed": 121,
+    "failed": 0,
+    "tests": [
+      {
+        "name": "Reports and deterministic print geometry HTML includes input snapshot, all integrated charts and exact balance values",
+        "status": "passed"
+      },
+      {
+        "name": "Reports and deterministic print geometry HTML escapes a custom scientific source",
+        "status": "passed"
+      },
+      {
+        "name": "Reports and deterministic print geometry CSV quotes text, retains UTF-8 Arabic and guards spreadsheet formulas",
+        "status": "passed"
+      },
+      {
+        "name": "Reports and deterministic print geometry JSON roundtrip retains inputs but does not use serialized results",
+        "status": "passed"
+      },
+      {
+        "name": "Reports and deterministic print geometry invalid and oversized JSON case files are rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Reports and deterministic print geometry negative heat bars are anchored below the zero baseline with visible labels",
+        "status": "passed"
+      },
+      {
+        "name": "Reports and deterministic print geometry line export identifies temperature axis and supports signed residuals",
+        "status": "passed"
+      },
+      {
+        "name": "Reports and deterministic print geometry all-zero print values produce finite geometry",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 1 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 1 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 1 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 1 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 1 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 2 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 2 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 2 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 2 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 2 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 3 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 3 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 3 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 3 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 3 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 4 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 4 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 4 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 4 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 4 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 5 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 5 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 5 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 5 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 5 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 6 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 6 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 6 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 6 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 6 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 7 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 7 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 7 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 7 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 7 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 8 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 8 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 8 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 8 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 8 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 9 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 9 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 9 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 9 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 9 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 10 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 10 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 10 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 10 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 10 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 11 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 11 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 11 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 11 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 11 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 12 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 12 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 12 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 12 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 12 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 13 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 13 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 13 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 13 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 13 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 14 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 14 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 14 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 14 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 14 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 15 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 15 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 15 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 15 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 15 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 16 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 16 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 16 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 16 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 16 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 17 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 17 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 17 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 17 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 17 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 18 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 18 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 18 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 18 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 18 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 19 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 19 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 19 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 19 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 19 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 20 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 20 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 20 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 20 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 20 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Additional model safeguards conserves mass and atoms across 400 deterministic feasible networks",
+        "status": "passed"
+      },
+      {
+        "name": "Additional model safeguards temperature-dependent Cp is positive and integrates consistently",
+        "status": "passed"
+      },
+      {
+        "name": "Additional model safeguards nitrogen sensible enthalpy is continuous at 500 K",
+        "status": "passed"
+      },
+      {
+        "name": "Additional model safeguards custom constant-Cp adiabatic model agrees with an independent linear solution",
+        "status": "passed"
+      },
+      {
+        "name": "Additional model safeguards rejects nonfinite, blank and unparseable inputs",
+        "status": "passed"
+      },
+      {
+        "name": "Additional model safeguards uses mass flows in the selected reactant and product molecular weights",
+        "status": "passed"
+      },
+      {
+        "name": "Additional model safeguards temperature and pressure units preserve ideal gas volume",
+        "status": "passed"
+      },
+      {
+        "name": "Additional model safeguards component splits conserve all product mass even with different recoveries",
+        "status": "passed"
+      },
+      {
+        "name": "Additional model safeguards interstage extents may consume intermediate supplied by a prior stage",
+        "status": "passed"
+      },
+      {
+        "name": "Additional model safeguards interstage chlorine additions are included in the external mass balance",
+        "status": "passed"
+      },
+      {
+        "name": "Additional model safeguards custom formation data must state their source",
+        "status": "passed"
+      },
+      {
+        "name": "Additional model safeguards rejects temperatures outside the thermal data range",
+        "status": "passed"
+      },
+      {
+        "name": "Additional model safeguards batch heat has no invented power output",
+        "status": "passed"
+      }
+    ]
+  },
+  "browser": {
+    "stats": {
+      "startTime": "2026-10-16T22:48:15.372Z",
+      "duration": 38895.085,
+      "expected": 65,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "specs": [
+      {
+        "title": "calculator 1 · en · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 2 · en · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 3 · en · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 4 · en · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 5 · en · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 6 · en · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 7 · en · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 8 · en · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 9 · en · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 10 · en · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 11 · en · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 12 · en · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 13 · en · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 14 · en · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 15 · en · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 16 · en · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 17 · en · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 18 · en · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 19 · en · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 20 · en · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 1 · ar · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 2 · ar · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 3 · ar · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 4 · ar · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 5 · ar · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 6 · ar · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 7 · ar · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 8 · ar · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 9 · ar · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 10 · ar · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 11 · ar · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 12 · ar · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 13 · ar · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 14 · ar · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 15 · ar · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 16 · ar · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 17 · ar · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 18 · ar · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 19 · ar · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "calculator 20 · ar · calculate, chart and all exports",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "responsive surfaces 360px · en",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "responsive surfaces 360px · ar",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "responsive surfaces 390px · en",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "responsive surfaces 390px · ar",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "responsive surfaces 768px · en",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "responsive surfaces 768px · ar",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "responsive surfaces 1024px · en",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "responsive surfaces 1024px · ar",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "responsive surfaces 1440px · en",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "responsive surfaces 1440px · ar",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "language, direction and theme persist across reload",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "search, filters and all navigation routes",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "reaction diagram responds to mouse and keyboard",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "all process blocks expose working calculator links",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "stale results are hidden, invalid input is explained, examples and clear work",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "unit switches preserve physical results and saved case reloads",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "extent and conversion input modes agree",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "network product distribution and all reaction/product selectors work",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "custom thermochemical sources and Cp model are validated",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "JSON export can be imported as a fresh case",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "mobile menu, language toggle and tool link",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "200% CSS zoom · en",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "200% CSS zoom · ar",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "print layout uses exact static plots · en",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      },
+      {
+        "title": "print layout uses exact static plots · ar",
+        "ok": true,
+        "statuses": [
+          "expected"
+        ]
+      }
+    ]
+  }
+}

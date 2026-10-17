@@ -1,0 +1,23 @@
+{
+  "application": "Halogenation Lab",
+  "version": "1.0.0",
+  "scientificTests": 113,
+  "reportTests": 8,
+  "unitTotal": 121,
+  "browserTests": 65,
+  "viewports": [
+    360,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "languages": [
+    "en",
+    "ar"
+  ],
+  "zoom": "200% CSS zoom at 1440px",
+  "printReview": "English and Arabic integrated report, seven pages each, internal visual QA",
+  "deployment": "Source archive only; no external deployment performed",
+  "modelScope": "Educational stoichiometric accounts, gas-reference thermochemistry, specified recovery fractions"
+}

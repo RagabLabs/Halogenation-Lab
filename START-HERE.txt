@@ -1,0 +1,24 @@
+Halogenation Lab 1.0.1 — RagabLabs
+=================================
+
+التشغيل المباشر:
+1. فك ضغط المشروع.
+2. افتح Open-Halogenation-Lab.html بضغطتين في متصفح حديث.
+3. اختر الحاسبة، عدّل المدخلات ثم اضغط «احسب النتائج».
+
+ملف التشغيل المستقل يضم الكود والتنسيق والخطوط داخله؛ لا يحتاج إلى تثبيت Node.js أو إلى إنترنت للحسابات.
+المراجع الخارجية تفتح مواقعها فقط عند الضغط على روابطها.
+لحفظ PDF، استخدم زر «تقرير PDF / طباعة» ثم اختر «حفظ كملف PDF» من المتصفح.
+
+فتح ملف index.html الموجود بجوار package.json مباشرةً ليس مسار التشغيل؛ استخدم ملف Open-Halogenation-Lab.html المذكور أعلاه.
+للنشر على GitHub Pages أو لتعديل الكود، اتبع README.md وdocs/DEPLOYMENT.md.
+
+التحقق من هذه المراجعة:
+- فحوص الحسابات والتقارير والبناء تُسجل في docs/VALIDATION.md.
+- فحص المتصفح الإضافي للملف المستقل تعذّر في بيئة التنفيذ لعدم إتاحة Chromium؛ لا يُدّعى أنه نُفّذ بنجاح.
+
+Quick start:
+Extract the ZIP, then double-click Open-Halogenation-Lab.html.
+The standalone file embeds the JavaScript, CSS and fonts. No Node.js, local server or internet connection is required by its calculation code.
+External reference links need internet access when selected.
+For development or GitHub Pages deployment, follow README.md.

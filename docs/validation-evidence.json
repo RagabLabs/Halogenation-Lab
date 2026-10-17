@@ -1,0 +1,513 @@
+{
+  "version": "1.0.1",
+  "unit": {
+    "total": 124,
+    "passed": 124,
+    "failed": 0,
+    "tests": [
+      {
+        "name": "Reports and deterministic print geometry HTML includes input snapshot, all integrated charts and exact balance values",
+        "status": "passed"
+      },
+      {
+        "name": "Reports and deterministic print geometry HTML escapes a custom scientific source",
+        "status": "passed"
+      },
+      {
+        "name": "Reports and deterministic print geometry CSV quotes text, retains UTF-8 Arabic and guards spreadsheet formulas",
+        "status": "passed"
+      },
+      {
+        "name": "Reports and deterministic print geometry JSON roundtrip retains inputs but does not use serialized results",
+        "status": "passed"
+      },
+      {
+        "name": "Reports and deterministic print geometry invalid and oversized JSON case files are rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Reports and deterministic print geometry negative heat bars are anchored below the zero baseline with visible labels",
+        "status": "passed"
+      },
+      {
+        "name": "Reports and deterministic print geometry line export identifies temperature axis and supports signed residuals",
+        "status": "passed"
+      },
+      {
+        "name": "Reports and deterministic print geometry all-zero print values produce finite geometry",
+        "status": "passed"
+      },
+      {
+        "name": "Reports and deterministic print geometry CSV protects textual formulas while retaining numeric negative heat",
+        "status": "passed"
+      },
+      {
+        "name": "Reports and deterministic print geometry CSV has empty optional cells instead of an undefined string",
+        "status": "passed"
+      },
+      {
+        "name": "Reports and deterministic print geometry all report formats identify the same application version",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 1 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 1 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 1 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 1 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 1 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 2 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 2 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 2 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 2 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 2 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 3 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 3 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 3 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 3 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 3 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 4 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 4 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 4 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 4 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 4 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 5 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 5 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 5 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 5 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 5 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 6 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 6 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 6 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 6 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 6 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 7 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 7 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 7 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 7 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 7 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 8 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 8 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 8 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 8 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 8 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 9 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 9 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 9 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 9 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 9 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 10 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 10 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 10 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 10 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 10 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 11 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 11 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 11 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 11 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 11 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 12 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 12 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 12 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 12 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 12 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 13 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 13 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 13 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 13 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 13 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 14 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 14 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 14 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 14 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 14 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 15 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 15 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 15 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 15 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 15 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 16 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 16 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 16 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 16 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 16 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 17 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 17 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 17 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 17 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 17 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 18 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 18 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 18 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 18 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 18 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 19 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 19 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 19 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 19 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 19 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 20 scientific acceptance reference case with independently specified expected values",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 20 scientific acceptance boundary case",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 20 scientific acceptance invalid input is rejected",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 20 scientific acceptance unit consistency across mol, kmol, g and kg hourly bases",
+        "status": "passed"
+      },
+      {
+        "name": "Calculator 20 scientific acceptance scientific consistency",
+        "status": "passed"
+      },
+      {
+        "name": "Additional model safeguards conserves mass and atoms across 400 deterministic feasible networks",
+        "status": "passed"
+      },
+      {
+        "name": "Additional model safeguards temperature-dependent Cp is positive and integrates consistently",
+        "status": "passed"
+      },
+      {
+        "name": "Additional model safeguards nitrogen sensible enthalpy is continuous at 500 K",
+        "status": "passed"
+      },
+      {
+        "name": "Additional model safeguards custom constant-Cp adiabatic model agrees with an independent linear solution",
+        "status": "passed"
+      },
+      {
+        "name": "Additional model safeguards rejects nonfinite, blank and unparseable inputs",
+        "status": "passed"
+      },
+      {
+        "name": "Additional model safeguards uses mass flows in the selected reactant and product molecular weights",
+        "status": "passed"
+      },
+      {
+        "name": "Additional model safeguards temperature and pressure units preserve ideal gas volume",
+        "status": "passed"
+      },
+      {
+        "name": "Additional model safeguards component splits conserve all product mass even with different recoveries",
+        "status": "passed"
+      },
+      {
+        "name": "Additional model safeguards interstage extents may consume intermediate supplied by a prior stage",
+        "status": "passed"
+      },
+      {
+        "name": "Additional model safeguards interstage chlorine additions are included in the external mass balance",
+        "status": "passed"
+      },
+      {
+        "name": "Additional model safeguards custom formation data must state their source",
+        "status": "passed"
+      },
+      {
+        "name": "Additional model safeguards rejects temperatures outside the thermal data range",
+        "status": "passed"
+      },
+      {
+        "name": "Additional model safeguards batch heat has no invented power output",
+        "status": "passed"
+      }
+    ]
+  },
+  "browser": {
+    "status": "blocked",
+    "reason": "Chromium executable missing; official browser download did not yield a usable archive",
+    "passed": 0,
+    "casesProvided": 71,
+    "priorReleaseEvidence": "history/validation-evidence-v1.0.0.json"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "application": "Halogenation Lab",
+  "version": "1.0.1",
+  "scientificTestsPassed": 113,
+  "reportTestsPassed": 11,
+  "unitTotalPassed": 124,
+  "build": "passed",
+  "portableStructure": "passed",
+  "portableEmbeddedFontURLs": 75,
+  "browserCurrent": "blocked: missing Chromium executable; browser download failed",
+  "browserCasesProvided": 71,
+  "portableBrowserCasesProvided": 6,
+  "priorBrowserEvidence": "docs/history/validation-evidence-v1.0.0.json",
+  "deployment": "No external deployment performed"
+}

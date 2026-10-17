@@ -1,0 +1,475 @@
+{
+  "application": "Halogenation Lab",
+  "version": "1.0.1",
+  "calculatorId": 19,
+  "language": "en",
+  "createdAt": "2026-10-17T09:39:06.147Z",
+  "inputs": {
+    "unit": "kmol/h",
+    "methane": 1,
+    "chlorine": 2,
+    "inert": 0.5,
+    "x1": 0.8,
+    "x2": 0.35,
+    "x3": 0.1,
+    "x4": 0.02,
+    "mode": "extent",
+    "extent": 0.6,
+    "conversion": 0.8,
+    "selectivity": 0.6,
+    "reaction": "1",
+    "substrate": 1,
+    "species": "CH4",
+    "feed": 1,
+    "remaining": 0.2,
+    "compositionMode": "manual",
+    "pCH3Cl": 0.45,
+    "pCH2Cl2": 0.25,
+    "pCHCl3": 0.08,
+    "pCCl4": 0.02,
+    "selected": "CH3Cl",
+    "selectivityBasis": "fraction",
+    "actual": 0.5,
+    "target": 0.4,
+    "thermoMode": "reference",
+    "thermoSource": "",
+    "cpModel": "shomate",
+    "cpSource": "",
+    "temperatureUnit": "K",
+    "temperature": 298.15,
+    "tin": 298.15,
+    "pressure": 1,
+    "pressureUnit": "bar",
+    "stages": 3,
+    "hfCH4": -74.8731,
+    "cpCH4": 35.6484,
+    "hfCH3Cl": -83.68,
+    "cpCH3Cl": 40.7116,
+    "hfCH2Cl2": -95.52114,
+    "cpCH2Cl2": 50.8639,
+    "hfCHCl3": -103.177,
+    "cpCHCl3": 65.3467,
+    "hfCCl4": -95.98096,
+    "cpCCl4": 82.67,
+    "hfCl2": 0,
+    "cpCl2": 33.9463,
+    "hfHCl": -92.31201,
+    "cpHCl": 29.1371,
+    "hfN2": 0,
+    "cpN2": 29.1238,
+    "rCH3Cl": 0.9,
+    "rCH2Cl2": 0.9,
+    "rCHCl3": 0.9,
+    "rCCl4": 0.9,
+    "s1cl2": 0,
+    "s1x1": 0.5,
+    "s1x2": 0.2,
+    "s1x3": 0.05,
+    "s1x4": 0.01,
+    "s2cl2": 0,
+    "s2x1": 0.2,
+    "s2x2": 0.15,
+    "s2x3": 0.05,
+    "s2x4": 0.01,
+    "s3cl2": 0,
+    "s3x1": 0.1,
+    "s3x2": 0.05,
+    "s3x3": 0.02,
+    "s3x4": 0.01,
+    "s4cl2": 0,
+    "s4x1": 0,
+    "s4x2": 0,
+    "s4x3": 0,
+    "s4x4": 0,
+    "s5cl2": 0,
+    "s5x1": 0,
+    "s5x2": 0,
+    "s5x3": 0,
+    "s5x4": 0
+  },
+  "results": {
+    "values": {
+      "inMass": 171.85000000000002,
+      "outMass": 171.85000000000002,
+      "massResidual": 0,
+      "closure": 100.00000000000001,
+      "CH4": 200,
+      "CH3Cl": 400,
+      "CH2Cl2": 280,
+      "CHCl3": 90,
+      "CCl4": 30,
+      "Cl2": 650,
+      "HCl": 1350,
+      "N2": 500,
+      "stages": 3,
+      "addedChlorine": 0,
+      "conversion": 0.8
+    },
+    "metrics": [
+      {
+        "label": {
+          "en": "Overall methane conversion",
+          "ar": "تحويل الميثان الكلي"
+        },
+        "value": 80,
+        "unit": "%"
+      },
+      {
+        "label": {
+          "en": "Reaction stages",
+          "ar": "مراحل التفاعل"
+        },
+        "value": 3,
+        "unit": ""
+      },
+      {
+        "label": {
+          "en": "Additional chlorine feed",
+          "ar": "تغذية الكلور الإضافية"
+        },
+        "value": 0,
+        "unit": "kmol/h"
+      },
+      {
+        "label": {
+          "en": "Overall mass closure",
+          "ar": "إغلاق موازنة الكتلة الكلية"
+        },
+        "value": 100.00000000000001,
+        "unit": "%"
+      }
+    ],
+    "tables": [
+      {
+        "title": {
+          "en": "Stage outlets · stage 0 is initial feed",
+          "ar": "مخارج المراحل · المرحلة 0 هي التغذية الأولية"
+        },
+        "headers": [
+          {
+            "en": "Stage",
+            "ar": "المرحلة"
+          },
+          "Cl₂ added (kmol/h)",
+          "CH₄ (kmol/h)",
+          "CH₃Cl (kmol/h)",
+          "CH₂Cl₂ (kmol/h)",
+          "CHCl₃ (kmol/h)",
+          "CCl₄ (kmol/h)",
+          "Cl₂ (kmol/h)",
+          "HCl (kmol/h)",
+          "N₂ (kmol/h)"
+        ],
+        "rows": [
+          [
+            "0",
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0.5
+          ],
+          [
+            "1",
+            0,
+            0.5,
+            0.3,
+            0.15,
+            0.04,
+            0.01,
+            1.24,
+            0.76,
+            0.5
+          ],
+          [
+            "2",
+            0,
+            0.3,
+            0.35,
+            0.25,
+            0.08,
+            0.02,
+            0.83,
+            1.17,
+            0.5
+          ],
+          [
+            "3",
+            0,
+            0.2,
+            0.4,
+            0.28,
+            0.09,
+            0.03,
+            0.65,
+            1.35,
+            0.5
+          ]
+        ]
+      },
+      {
+        "title": {
+          "en": "Component balance",
+          "ar": "موازنة المكونات"
+        },
+        "headers": [
+          {
+            "en": "Species",
+            "ar": "المكوّن"
+          },
+          {
+            "en": "n in (kmol/h)",
+            "ar": "مولات الدخول (kmol/h)"
+          },
+          {
+            "en": "n out (kmol/h)",
+            "ar": "مولات الخروج (kmol/h)"
+          },
+          {
+            "en": "m in (kg/h)",
+            "ar": "كتلة الدخول (kg/h)"
+          },
+          {
+            "en": "m out (kg/h)",
+            "ar": "كتلة الخروج (kg/h)"
+          }
+        ],
+        "rows": [
+          [
+            "CH₄",
+            1,
+            0.2,
+            16.043,
+            3.2086
+          ],
+          [
+            "CH₃Cl",
+            0,
+            0.4,
+            0,
+            20.194
+          ],
+          [
+            "CH₂Cl₂",
+            0,
+            0.28,
+            0,
+            23.77956
+          ],
+          [
+            "CHCl₃",
+            0,
+            0.09,
+            0,
+            10.74321
+          ],
+          [
+            "CCl₄",
+            0,
+            0.03,
+            0,
+            4.61433
+          ],
+          [
+            "Cl₂",
+            2,
+            0.65,
+            141.8,
+            46.08500000000001
+          ],
+          [
+            "HCl",
+            0,
+            1.35,
+            0,
+            49.21830000000001
+          ],
+          [
+            "N₂",
+            0.5,
+            0.5,
+            14.007,
+            14.007
+          ]
+        ]
+      },
+      {
+        "title": {
+          "en": "Elemental audit",
+          "ar": "مراجعة العناصر"
+        },
+        "headers": [
+          {
+            "en": "Element",
+            "ar": "العنصر"
+          },
+          {
+            "en": "in (kmol/h atoms)",
+            "ar": "دخول (kmol/h ذرات)"
+          },
+          {
+            "en": "out (kmol/h atoms)",
+            "ar": "خروج (kmol/h ذرات)"
+          },
+          {
+            "en": "Residual",
+            "ar": "الباقي"
+          }
+        ],
+        "rows": [
+          [
+            "C",
+            1,
+            1,
+            0
+          ],
+          [
+            "H",
+            4,
+            4,
+            0
+          ],
+          [
+            "Cl",
+            4,
+            4,
+            0
+          ],
+          [
+            "N",
+            1,
+            1,
+            0
+          ]
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "en": "Normalize the hourly-flow basis. Feed masses use component molecular weights; extents use kmol/h.",
+          "ar": "توحيد أساس التدفق بالساعة. تُحوّل كتل التغذية بكتل المكونات المولية، وتستخدم الامتدادات kmol/h."
+        },
+        "formula": "n_i=m_i/M_i"
+      },
+      {
+        "text": {
+          "en": "Stage 1: add 0 kmol/h of Cl₂; extents (kmol/h) = 0.5, 0.2, 0.05, 0.01.",
+          "ar": "المرحلة 1: إضافة 0 kmol/h من Cl₂؛ الامتدادات (kmol/h) = 0.5, 0.2, 0.05, 0.01."
+        }
+      },
+      {
+        "text": {
+          "en": "Stage 2: add 0 kmol/h of Cl₂; extents (kmol/h) = 0.2, 0.15, 0.05, 0.01.",
+          "ar": "المرحلة 2: إضافة 0 kmol/h من Cl₂؛ الامتدادات (kmol/h) = 0.2, 0.15, 0.05, 0.01."
+        }
+      },
+      {
+        "text": {
+          "en": "Stage 3: add 0 kmol/h of Cl₂; extents (kmol/h) = 0.1, 0.05, 0.02, 0.01.",
+          "ar": "المرحلة 3: إضافة 0 kmol/h من Cl₂؛ الامتدادات (kmol/h) = 0.1, 0.05, 0.02, 0.01."
+        }
+      },
+      {
+        "text": {
+          "en": "Total inlet mass = 171.85 kg/h; outlet = 171.85 kg/h; residual = 0 kg/h.",
+          "ar": "الكتلة الداخلة = 171.85 kg/h؛ الخارجة = 171.85 kg/h؛ الباقي = 0 kg/h."
+        },
+        "formula": "\\varepsilon_m=m_{out}-m_{in}"
+      }
+    ],
+    "notes": [],
+    "chart": [
+      {
+        "name": "S0",
+        "value": 1
+      },
+      {
+        "name": "S1",
+        "value": 0.5
+      },
+      {
+        "name": "S2",
+        "value": 0.3
+      },
+      {
+        "name": "S3",
+        "value": 0.2
+      }
+    ],
+    "chartTitle": {
+      "en": "Methane remaining by stage",
+      "ar": "الميثان المتبقي حسب المرحلة"
+    },
+    "chartUnit": "kmol/h",
+    "balance": {
+      "inMass": 171.85000000000002,
+      "outMass": 171.85000000000002,
+      "residual": 0,
+      "closure": 100.00000000000001,
+      "elements": {
+        "C": {
+          "in": 1000,
+          "out": 1000,
+          "residual": 0
+        },
+        "H": {
+          "in": 4000,
+          "out": 4000,
+          "residual": 0
+        },
+        "Cl": {
+          "in": 4000,
+          "out": 4000,
+          "residual": 0
+        },
+        "N": {
+          "in": 1000,
+          "out": 1000,
+          "residual": 0
+        }
+      }
+    },
+    "stream": {
+      "CH4": 200,
+      "CH3Cl": 400,
+      "CH2Cl2": 280,
+      "CHCl3": 90,
+      "CCl4": 30,
+      "Cl2": 650,
+      "HCl": 1350,
+      "N2": 500
+    },
+    "extraCharts": [
+      {
+        "data": [
+          {
+            "name": "CH₃Cl",
+            "value": 0.4
+          },
+          {
+            "name": "CH₂Cl₂",
+            "value": 0.28
+          },
+          {
+            "name": "CHCl₃",
+            "value": 0.09
+          },
+          {
+            "name": "CCl₄",
+            "value": 0.03
+          }
+        ],
+        "title": {
+          "en": "Final stage products",
+          "ar": "منتجات المرحلة الأخيرة"
+        },
+        "unit": "kmol/h"
+      }
+    ]
+  }
+}
